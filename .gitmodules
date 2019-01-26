@@ -1,0 +1,3 @@
+[submodule "docs-generator/themes/alberta"]
+	path = docs-generator/themes/alberta
+	url = https://github.com/ken8203/hexo-theme-alberta.git

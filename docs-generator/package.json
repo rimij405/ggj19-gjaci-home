@@ -13,7 +13,7 @@
     "clean": "hexo clean",
     "build": "hexo clean && hexo g",
     "serve": "hexo clean && hexo g && hexo s",
-    "deploy": "hexo clean && hexo deploy"
+    "deploy": "hexo clean && hexo deploy && hexo clean"
   },
   "dependencies": {
     "hexo": "^3.7.0",

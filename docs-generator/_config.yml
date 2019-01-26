@@ -94,5 +94,5 @@ theme_config:
 deploy:
   type: git
   repo: https://github.com/rimij405/ggj19-gjaci-home.git
-  branch: published
+  branch: gh-pages
   message: 

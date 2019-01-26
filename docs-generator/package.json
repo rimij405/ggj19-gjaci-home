@@ -14,7 +14,7 @@
     "build": "hexo clean && hexo g",
     "serve": "hexo clean && hexo g && hexo s",
     "deploy": "hexo clean && hexo deploy",
-    "commit-site-update": "hexo clean && git add docs-generator/* && git commit -m \"Site updated. See 'published' branch.\" && hexo deploy"
+    "commit-site-update": "cd $(git rev-parse --show-cdup) && hexo clean && git add docs-generator/* && git commit -m \"Site updated. See 'published' branch.\" && hexo deploy"
   },
   "dependencies": {
     "hexo": "^3.7.0",

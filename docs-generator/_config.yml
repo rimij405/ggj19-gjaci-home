@@ -15,7 +15,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://rimij405.github.io/ggj19-gjaci-home
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :category/:title/
 permalink_defaults:
 
 # Directory
@@ -72,11 +72,22 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+
 ## Themes: https://hexo.io/themes/
 theme: alberta
 theme_config:
+
+  # Replace brand logo.
+  # Dependencies: https://github.com/ken8203/hexo-theme-alberta
   your_img: https://via.placeholder.com/150
-  
+
+  # Generate a blog feed.
+  # Tutorial: http://www.codeblocq.com/2015/12/Add-an-RSS-feed-to-your-hexo-blog/
+  # Dependencies: https://github.com/hexojs/hexo-generator-feed
+  feed: 
+    type: atom
+    path: atom.xml
+    limit: 10
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

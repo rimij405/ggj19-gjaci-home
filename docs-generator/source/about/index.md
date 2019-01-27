@@ -47,17 +47,17 @@ Screenshots will be included here once possible.
 
 #### Making the Music ####
 
-![FL Studio development process.](images/fl-studio.gif)
+![FL Studio development process.](../images/fl-studio.gif)
 
 #### In-Game Screenshots ####
 
-![In-game screenshot.](images/screenshot1.png)
+![In-game screenshot.](../images/screenshot1.png)
 
-![In-game screenshot.](images/screenshot2.png)
+![In-game screenshot.](../images/screenshot2.png)
 
-![In-game screenshot.](images/screenshot3.png)
+![In-game screenshot.](../images/screenshot3.png)
 
-![In-game screenshot.](images/screenshot4.png)
+![In-game screenshot.](../images/screenshot4.png)
 
 ## Post-Mortem ##
 

@@ -79,7 +79,7 @@ theme_config:
 
   # Replace brand logo.
   # Dependencies: https://github.com/ken8203/hexo-theme-alberta
-  your_img: https://via.placeholder.com/150
+  your_img: images/logo.png
 
   # Generate a blog feed.
   # Tutorial: http://www.codeblocq.com/2015/12/Add-an-RSS-feed-to-your-hexo-blog/

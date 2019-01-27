@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>GJACI Makes A Game!</title>
+  
+  <subtitle>Website for global game jam 2019 entry.</subtitle>
+  <link href="/ggj19-gjaci-home/atom.xml" rel="self"/>
+  
+  <link href="https://rimij405.github.io/ggj19-gjaci-home/"/>
+  <updated>2019-01-27T20:02:07.500Z</updated>
+  <id>https://rimij405.github.io/ggj19-gjaci-home/</id>
+  
+  <author>
+    <name>Ian Effendi</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://rimij405.github.io/ggj19-gjaci-home/gamejam/hello-world/"/>
+    <id>https://rimij405.github.io/ggj19-gjaci-home/gamejam/hello-world/</id>
+    <published>2019-01-27T17:38:02.018Z</published>
+    <updated>2019-01-27T20:02:07.500Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is GJACI Games’ GGJ2019 entry blog.</p><p>Please see the about page for more information about the project!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;This is GJACI Games’ GGJ2019 entry blog.&lt;/p&gt;
+&lt;p&gt;Please see the about page for more information about the project!&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

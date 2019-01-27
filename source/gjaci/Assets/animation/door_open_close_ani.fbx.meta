@@ -1,20 +1,43 @@
 fileFormatVersion: 2
-guid: 74b80d5bb2a02a04f89607861985e47c
+guid: ec36d14b031073b48a3d042077d0b974
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: 'Material #2146946855'
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: RFP_Toilet_Paper
-    4300002: RFAIPP_Toilet_Paper
-    7400000: Take 001
+    100000: door
+    100002: //RootNode
+    100004: nob
+    100006: pCube1
+    100008: pCylinder1
+    100010: pCylinder2
+    100012: pCylinder3
+    100014: transform1
+    100016: transform2
+    100018: transform3
+    100020: transform4
+    400000: door
+    400002: //RootNode
+    400004: nob
+    400006: pCube1
+    400008: pCylinder1
+    400010: pCylinder2
+    400012: pCylinder3
+    400014: transform1
+    400016: transform2
+    400018: transform3
+    400020: transform4
+    2100000: door1
+    2100002: nob1
+    2300000: door
+    2300002: nob
+    3300000: door
+    3300002: nob
+    4300000: door
+    4300002: nob
+    7400000: door_open_and_close
     9500000: //RootNode
   externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -39,11 +62,39 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: door_open_and_close
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 2.5
+    globalScale: 59
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -63,14 +114,14 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.59
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
@@ -88,7 +139,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

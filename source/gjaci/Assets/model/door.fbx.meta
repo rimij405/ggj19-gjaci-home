@@ -1,27 +1,40 @@
 fileFormatVersion: 2
-guid: 63fa8cac20c4f444cbc13e97573af35f
+guid: 470d390b0a8d706449c989daa64ff3b8
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: joint1
-    100004: joint2
-    100006: joint3
-    100008: joint4
-    100010: joint5
-    100012: pCube1
+    100002: door
+    100004: nob
+    100006: pCube1
+    100008: pCylinder1
+    100010: pCylinder2
+    100012: pCylinder3
+    100014: transform1
+    100016: transform2
+    100018: transform3
+    100020: transform4
     400000: //RootNode
-    400002: joint1
-    400004: joint2
-    400006: joint3
-    400008: joint4
-    400010: joint5
-    400012: pCube1
-    2100000: lambert1
-    4300000: pCube1
-    7400000: box_animationTake 001
+    400002: door
+    400004: nob
+    400006: pCube1
+    400008: pCylinder1
+    400010: pCylinder2
+    400012: pCylinder3
+    400014: transform1
+    400016: transform2
+    400018: transform3
+    400020: transform4
+    2100000: door1
+    2100002: nob1
+    2300000: door
+    2300002: nob
+    3300000: door
+    3300002: nob
+    4300000: door
+    4300002: nob
+    7400000: Take 001
     9500000: //RootNode
-    13700000: pCube1
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -49,39 +62,11 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: box_animationTake 001
-      takeName: Take 001
-      firstFrame: 1
-      lastFrame: 145
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 10
+    globalScale: 59
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -101,7 +86,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.099999994
+    previousCalculatedGlobalScale: 0.59999996
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
